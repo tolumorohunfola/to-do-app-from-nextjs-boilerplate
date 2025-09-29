@@ -64,8 +64,10 @@ export default function Page() {
   return (
     <div className="to-do-list">
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
+        <ul className="nav">
+          <li>
+            <a href="/">Home</a>
+          </li>
         </ul>
       </nav>
       <h1>To Do List</h1>
