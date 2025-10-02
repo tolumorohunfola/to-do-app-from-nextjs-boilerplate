@@ -12,6 +12,8 @@ export default function Page() {
         </ul>
       </nav>
       <h1>Register Page</h1>
+      <label htmlFor="email-address">Please enter your email address:</label>
+      <input type="email" id="email-address" name="email-address"></input>
     </div>
   );
 }
